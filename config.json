@@ -1,0 +1,19 @@
+{
+  "inbounds": [{
+    "port": 443,
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "2c4f1f40-ffff-4b26-8f00-123456789abc",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "ws"
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
